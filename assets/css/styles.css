@@ -1,0 +1,76 @@
+body {
+  margin: 0px; }
+
+.header {
+  height: 80px;
+  max-width: 100%;
+  border-bottom: 5px solid black;
+  background-color: #E8E8E8;
+  margin-top: -20px; }
+
+.style {
+  padding: 10px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, sans-serif; }
+
+P {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px; }
+
+li {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; }
+
+ul {
+  list-style: none; }
+
+form {
+  font-weight: bold; }
+
+.navbar {
+  text-align: center;
+  border: 1px solid gray;
+  background-color: #33CCFF; }
+
+.navbar li {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #C0C0C0;
+  margin-right: 30px; }
+
+.navbar li:hover {
+  background-color: #ffffcc; }
+  .navbar li:hover .subnav {
+    opacity: 1.0; }
+
+a {
+  text-decoration: none; }
+
+.subnav {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -35px;
+  opacity: 0.0; }
+
+.subnav:hover {
+  opacity: 1.0; }
+
+.subnav li {
+  display: block;
+  background-color: white;
+  font-size: 17px;
+  border: none;
+  position: relative; }
+
+.subnav li:hover {
+  background-color: white; }
+
+.subnav li a:hover {
+  color: #cc3300; }
+
+/*# sourceMappingURL=styles.css.map */

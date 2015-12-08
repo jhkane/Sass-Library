@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+}
+
+.header {
+	height:80px;
+	max-width:100%;
+	border-bottom: 5px solid black;
+	background-color: #E8E8E8;
+	margin-top: -20px;
+}
+.style {
+	padding: 10px;
+}
+
+@import 'headings';
+
+@import 'paragraphs';
+
+@import 'forms-inputs';
+
+@import 'navbar';
